@@ -24,7 +24,7 @@ function App() {
         <button onClick={handleClick}>smartphone</button>
         <button onClick={handleClick}>tablet</button>
         { carregando && <p>Carregando...</p>}
-        { dados && <Produto dados={dados}/> /*se dados for true, ou seja, tenha algo em dados*/}
+        { dados && <Produto dados={dados}/>}
       </div>
     </div>
   )

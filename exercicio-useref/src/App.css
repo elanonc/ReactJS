@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 2rem;
+}
+
+h1, ul {
+  margin-top: 2rem;
+  margin-left: 18rem;
+  text-align: left;
+  font-size: 2rem;
+}
+
+button {
+  background-color: #010101;
+  color: #FFF;
+  border: none;
+  border-radius: 5%;
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+input {
+  width: 50rem;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  margin: 2rem;
+}
